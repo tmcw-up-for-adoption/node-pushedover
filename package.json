@@ -1,0 +1,19 @@
+{
+  "name": "pushedover",
+  "version": "0.0.0",
+  "description": "send a pushover notification when a task finishes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+      "pushedover": "index.js"
+  },
+  "author": "Tom MacWright",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "superenv": "0.0.1",
+    "node-pushover": "~0.2.2",
+    "pushover-notifications": "~0.1.5"
+  }
+}
